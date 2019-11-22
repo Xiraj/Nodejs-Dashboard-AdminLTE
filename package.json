@@ -1,0 +1,35 @@
+{
+  "name": "myadmin",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-flash": "0.0.2",
+    "express-myconnection": "1.0.4",
+    "express-session": "^1.17.0",
+    "express-validator": "^5.3.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "method-override": "^3.0.0",
+    "morgan": "~1.9.1",
+    "mysql": "^2.17.1",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "clean-css": ">=4.1.11",
+    "constantinople": ">=3.1.1",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/express-flash": "0.0.1",
+    "@types/express-myconnection": "^1.0.33",
+    "@types/express-session": "^1.15.15",
+    "@types/method-override": "0.0.31",
+    "@types/mysql": "^2.15.7",
+    "@types/serve-favicon": "^2.2.31"
+  }
+}
